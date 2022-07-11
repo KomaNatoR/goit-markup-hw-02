@@ -10,6 +10,11 @@
             color: var(--main-text-color); }
 
  ul {list-style: none;}
+ .button {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: none;
+ }
 
  
  /* голова */
@@ -23,10 +28,12 @@
     .link {
         color: var(--title-text-color);
     }
-    .link:hover,
-    .link:focus {
+    .site-nav .link:hover,
+    .site-nav .link:focus {
         color: var(--accent-color);
     }
+    .site-nav .link.current {color: var(--accent-color);}
+    
     .address {
         color: var(--main-text-color);
     }
@@ -36,8 +43,14 @@
     }
 /* мейн */
 /* герой */
+    .hero {
+        color: #ffffff;
+        background-color: #2F303A;
+    }
 /* особливості */
-    .section {}
+    .section {
+        background-color:  #ffffff;
+    }
     .section-title {
         color: var(--title-text-color);
     }
