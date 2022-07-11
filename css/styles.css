@@ -1,0 +1,17 @@
+ body {
+    background-color: #E5E5E5;
+    color: #757575;
+ }
+
+ header {
+    background-color: #ffffff;
+ }
+ 
+    /* голова */
+    
+    .header-logo {
+        color: #2196F3;
+    }
+    .header-logo- {
+        color: #000000;
+    }
