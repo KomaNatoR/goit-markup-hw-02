@@ -1,17 +1,43 @@
- body {
-    background-color: #E5E5E5;
-    color: #757575;
- }
+ :root {
 
- header {
-    background-color: #ffffff;
+    --accent-color: #2196f3;
+    --main-text-color: #757575; 
+    --title-text-color: #212121;
+    
  }
  
-    /* голова */
-    
-    .header-logo {
-        color: #2196F3;
+ body {     background-color: #E5E5E5;
+            color: var(--main-text-color); }
+
+ ul {list-style: none;}
+
+ 
+ /* голова */
+    header {
+      background-color: #ffffff;
     }
-    .header-logo- {
-        color: #000000;
+    .logo {}
+    .logo- {color: var(--accent-color);}
+    .logo-- {color: #000000;}
+/* навігація сайту */
+    .link {
+        color: var(--title-text-color);
+    }
+    .link:hover,
+    .link:focus {
+        color: var(--accent-color);
+    }
+    .address {
+        color: var(--main-text-color);
+    }
+    .address:hover, 
+    .address:focus {
+        color: var(--accent-color);
+    }
+/* мейн */
+/* герой */
+/* особливості */
+    .section {}
+    .section-title {
+        color: var(--title-text-color);
     }
