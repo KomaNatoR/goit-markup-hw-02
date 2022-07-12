@@ -3,42 +3,46 @@
     --accent-color: #2196f3;
     --main-text-color: #757575; 
     --title-text-color: #212121;
+    --foothero-back-color: #2F303A;
     
  }
  
- body {     background-color: #E5E5E5;
-            color: var(--main-text-color); }
+ /* загальні */
+ body      {background-color: #E5E5E5;
+            color: var(--main-text-color);
+            font-family: "roboto";}
 
- ul {list-style: none;}
+ .list { list-style: none;}
+ .line {text-decoration: none;}
  .button {
     background-color: var(--accent-color);
     color: #ffffff;
     border: none;
  }
+ .div {background-color: #ffffff;}
 
  
  /* голова */
     header {
       background-color: #ffffff;
+      
     }
-    .logo {}
-    .logo- {color: var(--accent-color);}
-    .logo-- {color: #000000;}
+    .logo { font-family: "raleway";}
+    .logo-web, .logo-studio:hover, .logo-studio:focus {color: var(--accent-color);}
+    .logo-studio {color: #000000;}
 /* навігація сайту */
     .link {
         color: var(--title-text-color);
     }
     .site-nav .link:hover,
-    .site-nav .link:focus {
-        color: var(--accent-color);
-    }
+    .site-nav .link:focus {color: var(--accent-color);}
     .site-nav .link.current {color: var(--accent-color);}
     
-    .address {
+    .contacts {
         color: var(--main-text-color);
     }
-    .address:hover, 
-    .address:focus {
+    .contacts:hover, 
+    .contacts:focus {
         color: var(--accent-color);
     }
 /* мейн */
@@ -49,8 +53,19 @@
     }
 /* особливості */
     .section {
-        background-color:  #ffffff;
+        background-color:  #e5e5e5;
     }
     .section-title {
         color: var(--title-text-color);
     }
+    /* наша команда */
+    .team {
+        background-color: #F5F4FA;
+    }
+/* ноги */
+    .footer {
+        background-color: var(--foothero-back-color);
+    }
+    .address {color: #ffffff;}
+    .contacts-down {color: rgb(255,255,255,60%);}
+    .contacts-down:hover, .contacts-down:focus {color: var(--accent-color);}
