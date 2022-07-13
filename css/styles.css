@@ -39,16 +39,6 @@
 
       border: none;
   }
-  .button-p {
-    font-family: inherit;
-
-    background-color: #F5F4FA;
-    color: #212121;
-  }
-  .button-p:hover, .button-p:focus {
-    background-color: var(--accent-color);
-    color: #ffffff;
-  }
  
  /* голова */
     header {
@@ -179,6 +169,18 @@
 /* -------------------------ПОРТФОЛІО----------------------------------- */
 
 /* кнопки */
+    .button-portfolio {
+        font-family: inherit;
+
+        background-color: #F5F4FA;
+        color: #212121;
+  }
+
+    .button-portfolio:hover,
+    .button-portfolio:focus {
+        background-color: var(--accent-color);
+        color: #ffffff;
+  }
 /* секції */
     .portfolio-list-title {
         font-weight: 700;
