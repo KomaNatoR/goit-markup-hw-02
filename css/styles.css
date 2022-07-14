@@ -42,17 +42,15 @@
         background-color: #FFFFFF;
     }
 /* логотип */
-    .logo { font-family: "raleway", sans-serif;
+    .logo-top { font-family: "raleway", sans-serif;
             font-weight: 700;
             font-size: 26px;
             line-height: 1.19;
             letter-spacing: 0.03em;
         
             color: #000000;}
-    .logo-web {color: var(--accent-color);}
-    .logo-studio {color: #ffffff;}
-    .logo:hover {color: var(--accent-color);}
-    .logo:focus {color: var(--accent-color);}
+    .logo-top-web {color: var(--accent-color);}
+    .logo-top:hover, .logo-top:focus {color: var(--accent-color);}
 
 
 /* навігація сайту */
@@ -104,7 +102,7 @@ color: var(--accent-color);
         letter-spacing: 0.06em;
 
         background-color: var(--accent-color);
-        color: var(--white-color);
+        color: #ffffff;
         }
         .button:hover {
         background-color: var(--button-hero-back-color);
@@ -169,13 +167,31 @@ color: var(--accent-color);
     .footer {
     background-color: var(--foothero-back-color);
     }
+
+    .logo-down {
+        font-family: "raleway", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    
+        color: #ffffff;
+         }
+    
+        .logo-down-web {
+            color: var(--accent-color);
+        }
+    
+        .logo-down:hover,
+        .logo-down:focus { color: var(--accent-color); }
+
     .address {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 
-    color: var(--white-color);}
+    color: #ffffff;}
     .contacts-down {
     font-style: normal;
     font-weight: 400;
@@ -203,7 +219,7 @@ color: var(--accent-color);
     .button-portfolio:hover,
     .button-portfolio:focus {
         background-color: var(--accent-color);
-        color: var(--white-color);
+        color: #ffffff;
   }
 /* секції */
     .portfolio-list-title {
