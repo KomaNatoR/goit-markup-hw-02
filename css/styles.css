@@ -1,9 +1,13 @@
  :root {
-
+    --logo-top-studio-color: #000000;
+    --white-color: #ffffff;
     --accent-color: #2196f3;
     --main-text-color: #757575; 
     --title-text-color: #212121;
     --foothero-back-color: #2F303A;
+    --background-main-color: #e5e5e5;
+    --back-teambutton-color: #F5F4FA;
+    --button-hero-back-color: #188CE8;
     
  }
  
@@ -13,13 +17,12 @@
         font-family: "roboto", sans-serif;
         letter-spacing: 0.03em;
 
-        background-color: #E5E5E5;
-        color: var(--main-text-color);
+        background-color: var(--background-main-color);
      }
     .list { list-style: none;}
     .noline {text-decoration: none;}
 
-    .div {background-color: #ffffff;}
+    .div {background-color: var(--white-color);}
     .hidden {
     position: absolute;
     width: 1px;
@@ -32,19 +35,12 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
     }
- /* кнопки */
-  .button {
-      background-color: var(--accent-color);
-      color: #ffffff;
-
-      border: none;
-  }
  
  /* голова */
     .header {
         letter-spacing: 0.02em;
 
-        background-color: #ffffff;
+        background-color: var(--white-color);
     }
 /* логотип */
     .logo { font-family: "raleway", sans-serif;
@@ -53,9 +49,9 @@
             line-height: 1.19;
             letter-spacing: 0.03em;
         
-            color: #ffffff;}
+            color: var(--white-color);}
     .logo-web {color: var(--accent-color);}
-    .logo-studio {color: #000000;}
+    .logo-studio {color: var(--logo-top-studio-color);}
     .logo:hover, .logo:focus {color: var(--accent-color);}
 
 
@@ -67,39 +63,54 @@
 
         color: var(--title-text-color);
     }
-    .site-nav .link:hover,
-    .site-nav .link:focus {color: var(--accent-color);}
-    .site-nav .link.current {color: var(--accent-color);}
+.site-nav .link:hover,
+.site-nav .link:focus {color: var(--accent-color);}
+.site-nav .link.current {color: var(--accent-color);}
     
-    .contacts {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
+.contacts {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
 
-        color: var(--main-text-color);
+color: var(--main-text-color);
     }
-    .contacts:hover, 
-    .contacts:focus {
-        color: var(--accent-color);
+.contacts:hover, 
+.contacts:focus {
+color: var(--accent-color);
     }
 /* мейн */
 /* герой */
     .hero {
-        letter-spacing: 0.06em;
 
-        color: #ffffff;
-        background-color: #2F303A;
+    color: var(--white-color);
+    background-color: var(--foothero-back-color);
     }
-    .hero-title {
+        .hero-title {
         text-align: center;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         text-transform: uppercase;
+
+        letter-spacing: 0.06em;
     }
+        .button {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+
+        text-align: center;
+        letter-spacing: 0.06em;
+
+        background-color: var(--accent-color);
+        color: var(--white-color);
+        }
+        .button:hover {
+        background-color: var(--button-hero-back-color);
+        }
 /* особливості */
     .section {
-        background-color:  #e5e5e5;
+        background-color:  var(--background-main-color);
     }
     .features-list-title {
         font-weight: 700;
@@ -127,7 +138,7 @@
     }
 /* наша команда */
     .team {
-        background-color: #F5F4FA;
+        background-color: var(--back-teambutton-color);
     }
     .team-title {
         font-weight: 700;
@@ -163,7 +174,7 @@
         font-size: 14px;
         line-height: 1.71;
 
-        color: #ffffff;}
+        color: var(--white-color);}
     .contacts-down {
         font-style: normal;
         font-weight: 400;
@@ -178,14 +189,14 @@
     .button-portfolio {
         font-family: inherit;
 
-        background-color: #F5F4FA;
-        color: #212121;
+        background-color: var(--back-teambutton-color);
+        color: var(--title-text-color);
   }
 
     .button-portfolio:hover,
     .button-portfolio:focus {
         background-color: var(--accent-color);
-        color: #ffffff;
+        color: var(--white-color);
   }
 /* секції */
     .portfolio-list-title {
