@@ -166,22 +166,22 @@ color: var(--accent-color);
     }
 /* ноги */
     .footer {
-        background-color: var(--foothero-back-color);
+    background-color: var(--foothero-back-color);
     }
     .address {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 
-        color: var(--white-color);}
+    color: var(--white-color);}
     .contacts-down {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 
-        color: rgb(255,255,255,60%);}
+    color: rgb(255,255,255,60%);}
     .contacts-down:hover, .contacts-down:focus {color: var(--accent-color);}
 /* -------------------------ПОРТФОЛІО----------------------------------- */
 
