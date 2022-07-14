@@ -1,6 +1,5 @@
  :root {
     --logo-top-studio-color: #000000;
-    --white-color: #ffffff;
     --accent-color: #2196f3;
     --main-text-color: #757575; 
     --title-text-color: #212121;
@@ -11,7 +10,7 @@
     
  }
  
- /* загальні */
+ /* =============================ЗАГАЛЬНІ============================== */
     body      {
 
         font-family: "roboto", sans-serif;
@@ -22,7 +21,7 @@
     .list { list-style: none;}
     .noline {text-decoration: none;}
 
-    .div {background-color: var(--white-color);}
+    .div {background-color: #FFFFFF;}
     .hidden {
     position: absolute;
     width: 1px;
@@ -36,11 +35,11 @@
     overflow: hidden;
     }
  
- /* голова */
+ /*======================================== ГОЛОВА============================= */
     .header {
         letter-spacing: 0.02em;
 
-        background-color: var(--white-color);
+        background-color: #FFFFFF;
     }
 /* логотип */
     .logo { font-family: "raleway", sans-serif;
@@ -49,10 +48,11 @@
             line-height: 1.19;
             letter-spacing: 0.03em;
         
-            color: var(--white-color);}
+            color: #000000;}
     .logo-web {color: var(--accent-color);}
-    .logo-studio {color: var(--logo-top-studio-color);}
-    .logo:hover, .logo:focus {color: var(--accent-color);}
+    .logo-studio {color: #ffffff;}
+    .logo:hover {color: var(--accent-color);}
+    .logo:focus {color: var(--accent-color);}
 
 
 /* навігація сайту */
@@ -79,10 +79,10 @@ color: var(--main-text-color);
 color: var(--accent-color);
     }
 /* мейн */
-/* герой */
+/* ==========================ГЕРОЙ================================= */
     .hero {
 
-    color: var(--white-color);
+    color: #FFFFFF;
     background-color: var(--foothero-back-color);
     }
         .hero-title {
@@ -95,6 +95,7 @@ color: var(--accent-color);
         letter-spacing: 0.06em;
     }
         .button {
+        font-family: 'Roboto';
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
@@ -187,7 +188,13 @@ color: var(--accent-color);
 
 /* кнопки */
     .button-portfolio {
-        font-family: inherit;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        
+        text-align: center;
+        letter-spacing: 0.03em;
 
         background-color: var(--back-teambutton-color);
         color: var(--title-text-color);
