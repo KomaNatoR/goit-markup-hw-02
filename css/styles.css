@@ -42,15 +42,24 @@
         background-color: #FFFFFF;
     }
 /* логотип */
-    .logo-top { font-family: "raleway", sans-serif;
+        .logo {
+            font-family: "raleway", sans-serif;
             font-weight: 700;
             font-size: 26px;
             line-height: 1.19;
             letter-spacing: 0.03em;
-        
-            color: #000000;}
-    .logo-top-web {color: var(--accent-color);}
-    .logo-top:hover, .logo-top:focus {color: var(--accent-color);}
+    
+            color: #ffffff;
+        }
+    
+        .logo-web { color: var(--accent-color);       }
+        .logo-studio {   color: #000000;        }
+    
+        .logo:hover,
+        .logo:focus { color: var(--accent-color);   }
+    
+        .logo-studio:hover,
+        .logo-studio:focus {color: var(--accent-color); }
 
 
 /* навігація сайту */
@@ -167,23 +176,6 @@ color: var(--accent-color);
     .footer {
     background-color: var(--foothero-back-color);
     }
-
-    .logo-down {
-        font-family: "raleway", sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-    
-        color: #ffffff;
-         }
-    
-        .logo-down-web {
-            color: var(--accent-color);
-        }
-    
-        .logo-down:hover,
-        .logo-down:focus { color: var(--accent-color); }
 
     .address {
     font-style: normal;
